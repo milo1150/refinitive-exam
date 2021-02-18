@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section 1 Quiz 2</title>
+  </head>
+  <body>
+    <h3>Quiz: Move a star to middle of the box.</h3>
+    <div class="parent">
+      <div class="star">★</div>
+    </div>
+  </body>
+</html>
+<style>
+  .parent {
+    position: relative;
+    /* try changing the width! */
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+  }
+
+  .star {
+    position: absolute;
+    /* Only allow to add content inside this block */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* */
+  }
+</style>

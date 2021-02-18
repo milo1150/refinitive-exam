@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Section 1 Quiz 4</title>
+  </head>
+  <body>
+    <h3>
+      Write code to show RGB code that users clicked inside the answer box.
+    </h3>
+    <div id="answerBox">ANSWER</div>
+    <div id="colorPicker"></div>
+  </body>
+</html>
+<style>
+  #answerBox {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 3px dotted black;
+    max-width: 300px;
+    padding: 0.2em;
+    margin-bottom: 20px;
+  }
+
+  #colorPicker {
+    display: grid;
+    max-width: 60%;
+  }
+
+  #colorPicker button {
+    display: inline-block;
+    max-width: 150px;
+    cursor: pointer;
+  }
+</style>
+<script src="quizFour.js"></script>
